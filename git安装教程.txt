@@ -1,0 +1,1 @@
+先用各自的军信通账号登录一下：http://mail.e-u.cn:8090创建了一个数据集git库，地址是ssh://xxx@mail.e-u.cn:29418/ai/datasets/twscene.git,其中：xxx是你的军信通用户名要连接这个库，你需要生成你的公钥和私钥，并把公钥文件中的内容拷贝出来粘贴到http://mail.e-u.cn:8090中有上角的settings页面的SSH Public Keys公钥输入框中，后点击add在命令行中使用X:\Git\bin\ssh-keygen.exe来生成公钥和私钥，一路回车即可在windows用户目录下的.ssh子目录下生成id_rsa和id_rsa_pub的文件，后一个是公钥文件，前一个是私钥文件
